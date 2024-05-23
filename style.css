@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+   position: relative;
+  }
+  img{
+    width: 100%;
+    padding: 0 20px;
+  }
+  .images{
+    position: relative;
+    z-index: 1;
+  }
+  .said-bar{
+    position: absolute;
+    z-index: 50;
+    top: 152px;
+    left: 72px;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(68, 68, 68, 0.493);
+    height:1167px;
+  }
+  button{
+    border: none;
+    outline: none;
+  }
+  
